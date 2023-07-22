@@ -73,30 +73,36 @@
 
 .detik-second-section,
 .detik-third-section,
-.detik-fourth-section {
+.detik-fourth-section,
+.detik-fifth-section {
     width: 72%;
 }
 
 .detik-second-section-left,
 .detik-third-section-left,
-.detik-fourth-section-left {
+.detik-fourth-section-left,
+.detik-fifth-section-left {
     width: 40%;
 }
 
 .detik-second-section-left h1,
 .detik-third-section-left h1,
-.detik-fourth-section-left h1 {
+.detik-fourth-section-left h1,
+.detik-fifth-section-left h1 {
     font-weight: 700;
 }
 
 .detik-second-section-left p,
-.detik-third-section-left p {
+.detik-third-section-left p,
+.detik-fourth-section-left p,
+.detik-fifth-section-left p {
     color: rgba(35, 35, 64, 0.9);
 }
 
 .detik-second-section-right,
 .detik-third-section-right,
-.detik-fourth-section-right {
+.detik-fourth-section-right,
+.detik-fifth-section-right {
     width: 60%;
 }
 
@@ -105,7 +111,8 @@
 }
 
 .detik-third-section-container,
-.detik-fourth-section-container {
+.detik-fourth-section-container,
+.detik-fifth-section-container {
     padding: 0 0 100px 0;
 }
 
@@ -122,17 +129,20 @@
 @media screen and (max-width: 992px) {
     .detik-second-section,
     .detik-third-section,
-    .detik-fourth-section {
+    .detik-fourth-section,
+    .detik-fifth-section {
         width: 100%;
     }
     .detik-second-section-left,
     .detik-third-section-left,
-    .detik-fourth-section-left {
+    .detik-fourth-section-left,
+    .detik-fifth-section-left {
         width: 100%;
     }
     .detik-second-section-right,
     .detik-third-section-right,
-    .detik-fourth-section-right {
+    .detik-fourth-section-right,
+    .detik-fifth-section-right {
         width: 100%;
     }
 }
@@ -149,7 +159,8 @@
     }
     .second-section-image,
     .third-section-image,
-    .fourth-section-image {
+    .fourth-section-image,
+    .fifth-section-image {
         width: 100%;
     }
 }
