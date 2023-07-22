@@ -72,17 +72,20 @@
 }
 
 .detik-second-section,
-.detik-third-section {
+.detik-third-section,
+.detik-fourth-section {
     width: 72%;
 }
 
 .detik-second-section-left,
-.detik-third-section-left {
+.detik-third-section-left,
+.detik-fourth-section-left {
     width: 40%;
 }
 
 .detik-second-section-left h1,
-.detik-third-section-left h1 {
+.detik-third-section-left h1,
+.detik-fourth-section-left h1 {
     font-weight: 700;
 }
 
@@ -92,7 +95,8 @@
 }
 
 .detik-second-section-right,
-.detik-third-section-right {
+.detik-third-section-right,
+.detik-fourth-section-right {
     width: 60%;
 }
 
@@ -100,7 +104,8 @@
     padding: 100px 0 100px 0;
 }
 
-.detik-third-section-container {
+.detik-third-section-container,
+.detik-fourth-section-container {
     padding: 0 0 100px 0;
 }
 
@@ -116,15 +121,18 @@
 
 @media screen and (max-width: 992px) {
     .detik-second-section,
-    .detik-third-section {
+    .detik-third-section,
+    .detik-fourth-section {
         width: 100%;
     }
     .detik-second-section-left,
-    .detik-third-section-left {
+    .detik-third-section-left,
+    .detik-fourth-section-left {
         width: 100%;
     }
     .detik-second-section-right,
-    .detik-third-section-right {
+    .detik-third-section-right,
+    .detik-fourth-section-right {
         width: 100%;
     }
 }
@@ -140,7 +148,8 @@
       width: 100%;
     }
     .second-section-image,
-    .third-section-image {
+    .third-section-image,
+    .fourth-section-image {
         width: 100%;
     }
 }
