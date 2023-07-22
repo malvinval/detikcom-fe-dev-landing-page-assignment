@@ -20,7 +20,63 @@
     width: 75%;
 }
 
-@media screen and (max-width: 1200px) {
+.detik-hero-section {
+    background-image: url("./img/hero-image.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.detik-hero-left {
+    width: 40%;
+}
+
+.detik-hero-container {
+    width: 72%;
+}
+
+.detik-hero-left h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.detik-hero-button {
+    background-color:#5468E7;
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 30px 5px 30px;
+}
+
+.detik-hero-button:hover {
+    cursor: pointer;
+    background-color: #4556c2;
+}
+
+.detik-hero-email-input {
+    background-color: white;
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 576px) {
+    .detik-hero-section {
+        background-position: -780px 0;
+    }
+    .detik-hero-left h1 {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .detik-hero-container {
+        width: 100%;
+    }
+    .detik-hero-left {
+        width: 100%;
+    }
     .detik-nav-subcontainer {
       width: 100%;
     }
