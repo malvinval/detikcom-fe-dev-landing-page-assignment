@@ -1,0 +1,27 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.detik-brand-name,
+.detik-brand-span {
+    font-weight: 700;
+}
+
+.detik-brand-name {
+    margin:0 ;
+}
+
+.detik-mobile-nav-link {
+    margin: 5px 0 5px 0;
+    display: block;
+}
+
+.detik-nav-subcontainer {
+    width: 75%;
+}
+
+@media screen and (max-width: 1200px) {
+    .detik-nav-subcontainer {
+      width: 100%;
+    }
+}

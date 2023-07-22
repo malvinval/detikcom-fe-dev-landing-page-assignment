@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page | Malvin Valerian</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    
+    <!-- START NAVBAR SECTION -->
+    <div class="d-flex flex-column fixed-top">
+        <div class="container-fluid px-4 px-lg-5 py-5 bg-secondary d-flex justify-content-center">
+            <div class="detik-nav-subcontainer d-flex justify-content-between">
+                <div class="detik-brand fs-2">
+                    <h1 class="text-white detik-brand-name">team<span class="detik-brand-span text-primary">.</span></h1>
+                </div>
+                <div class="w-50">
+                    <div class="detik-hamburger-container h-100 d-flex d-lg-none justify-content-end align-items-center">
+                        <svg class="detik-hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M4 8C3.45 8 3 7.55 3 7C3 6.45 3.45 6 4 6H20C20.55 6 21 6.45 21 7C21 7.55 20.55 8 20 8H4ZM4 13H20C20.55 13 21 12.55 21 12C21 11.45 20.55 11 20 11H4C3.45 11 3 11.45 3 12C3 12.55 3.45 13 4 13ZM4 18H20C20.55 18 21 17.55 21 17C21 16.45 20.55 16 20 16H4C3.45 16 3 16.45 3 17C3 17.55 3.45 18 4 18Z" fill="#F5F5F5"/>
+                        </svg>
+                    </div>
+                    <ul class="detik-nav-ul w-100 h-100 d-none d-lg-flex justify-content-between align-items-center">
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Product</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Blog</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Support</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Log In</a>
+                        </li>
+                        <li class="list-unstyled" role="button">
+                            <a href="#" class="text-decoration-none text-white">Get Access</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- START MOBILE NAVBAR SECTION -->
+        <div class="d-none detik-mobile-navbar container-fluid bg-primary d-flex flex-column d-lg-none p-4">
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Product</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Blog</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Support</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Login</a>
+            <a href="#" class="detik-mobile-nav-link text-decoration-none text-white">Get Access</a>
+        </div>
+        <!-- END MOBILE NAVBAR SECTION -->
+    </div>
+    <!-- END NAVBAR SECTION -->
 </body>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
 </html>
