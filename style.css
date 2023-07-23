@@ -193,6 +193,11 @@
     .what-people-say-section {
         width: 90%;
     }
+
+    .what-people-say-section {
+        width: 72%;
+        margin: 0 0 100px 0;
+    }
 }
 
 @media (max-width: 767px) {
