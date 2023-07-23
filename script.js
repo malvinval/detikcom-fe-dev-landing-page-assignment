@@ -1,3 +1,4 @@
+// navlink responsiveness
 const navbarHamburger = document.querySelector(".detik-hamburger-icon");
 const mobileNavbar = document.querySelector(".detik-mobile-navbar");
 
@@ -28,3 +29,21 @@ let items = document.querySelectorAll('.carousel .carousel-item')
         next = next.nextElementSibling
     }
 })
+
+// navbar background responsiveness
+const navbarHero = document.getElementById("detik-navbar");
+const heroSection = document.querySelector(".detik-hero-section");
+const heroSectionHeight = heroSection.offsetHeight;
+
+function updateNavbarBackground() {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition < heroSectionHeight) {
+        navbarHero.style.backgroundColor = "transparent";
+    } else {
+        navbarHero.style.backgroundColor = "rgba(35, 35, 64, 1)";
+    }
+}
+
+// Update navbar background on page load and scroll
+updateNavbarBackground();
+window.addEventListener("scroll", updateNavbarBackground);
